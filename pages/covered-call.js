@@ -38,16 +38,16 @@ export default function CoveredCall() {
           <AdComponent slot="7894561231" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 유명 종목 예시 (5개)</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 HTS 라인업 상품 예시 (5개)</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              아래는 커버드콜 전략에 자주 활용되는 국내 고배당주 및 거래량이 많은 종목들입니다:
+              아래는 커버드콜 전략에 자주 활용되는 국내 대표 ETF 상품들입니다:
             </p>
             <ol className="list-decimal pl-5 sm:pl-6 text-gray-600 dark:text-gray-300 space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><span className="font-semibold">SK하이닉스 (000660):</span> 반도체 대표주로 주가 변동성이 크고 옵션 거래량이 활발함. 배당성향은 낮지만 주가차익을 노릴 수 있음.</li>
-              <li><span className="font-semibold">삼성전자 (005930):</span> 코스피 대표주로 유동성과 옵션 거래량이 가장 많아 커버드콜 전략에 최적화됨.</li>
-              <li><span className="font-semibold">현대차 (005380):</span> 자동차 대표주로 주기적인 수익성 개선과 배당 수혜가 가능한 종목.</li>
-              <li><span className="font-semibold">LG화학 (051910):</span> 2차전지 산업의 성장성이 기대되는 종목으로 옵션 전략에 적합함.</li>
-              <li><span className="font-semibold">한국전력 (015760):</span> 고배당주로 배당수익률과 옵션 프리미엄 수익을 동시에 노릴 수 있음.</li>
+              <li><span className="font-semibold">KODEX 200 (091160):</span> 코스피200을 추적하는 대표 ETF로 거래량이 많고 옵션 거래도 활발함. 배당수익 + 옵션 프리미엄 수익 추구 가능.</li>
+              <li><span className="font-semibold">TIGER 200 (102110):</span> NH-Amundi의 코스피200 ETF로 유동성이 풍부해 커버드콜 전략에 최적화됨.</li>
+              <li><span className="font-semibold">KODEX 코스닥150 (295000):</span> 코스닥 대형주를 추적하는 ETF로 성장주 포트폴리오에 적합한 커버드콜 전략 대상.</li>
+              <li><span className="font-semibold">TIGER 미국S&P500 (122630):</span> 미국 주식시장 노출을 위한 ETF로 글로벌 포트폴리오에 활용 가능.</li>
+              <li><span className="font-semibold">ACE KRX자동차 (347500):</span> 자동차 섹터 ETF로 산업별 테마 포트폴리오에 활용 가능한 커버드콜 전략 대상.</li>
             </ol>
           </div>
           

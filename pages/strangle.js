@@ -38,16 +38,16 @@ export default function Strangle() {
           <AdComponent slot="7894561237" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 유명 종목 예시 (5개)</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 HTS 라인업 상품 예시 (5개)</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              아래는 스트렝글 전략에 자주 활용되는 국내 변동성이 큰 종목들입니다:
+              아래는 스트렝글 전략에 자주 활용되는 국내 대표 ETF 상품들입니다:
             </p>
             <ol className="list-decimal pl-5 sm:pl-6 text-gray-600 dark:text-gray-300 space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><span className="font-semibold">삼성바이오로직스 (207940):</span> 바이오 업종으로 임상 결과 발표 등 이벤트에 따른 급등락이 잦아 스트렝글 전략에 적합함.</li>
-              <li><span className="font-semibold">NAVER (035420):</span> IT 대표주로 정기적인 실적 발표나 규제 이슈에 민감한 반응을 보임.</li>
-              <li><span className="font-semibold">현대자동차 (005380):</span> 자동차 업황 변화와 전기차 정책 영향을 받아 변동성이 큰 종목.</li>
-              <li><span className="font-semibold">SK이노베이션 (096770):</span> 석유화학 및 배터리 업종으로 국제유가 및 정책 변화에 민감한 반응.</li>
-              <li><span className="font-semibold">한국항공우주 (047810):</span> 방산주로 정부 정책 및 수주 소식에 따라 큰 변동성이 발생함.</li>
+              <li><span className="font-semibold">TIGER 레버리지 (114800):</span> 코스피200 2배 레버리지 ETF로 변동성이 크고 방향성 없는 큰 움직임이 예상될 때 스트렝글 전략에 적합.</li>
+              <li><span className="font-semibold">KODEX 인버스 (114810):</span> 코스피200 인버스 ETF로 시장 전반의 변동성에 베팅할 수 있어 스트렝글 전략에 활용 가능.</li>
+              <li><span className="font-semibold">ACE WTIBrent crude (297450):</span> 원유 ETF로 지정학적 이슈나 공급변화에 민감하여 스트렝글 전략에 적합.</li>
+              <li><span className="font-semibold">TIGER 유로선물 (234490):</span> 통화 ETF로 환율 변동성에 베팅할 수 있어 이벤트 시 큰 움직임이 예상됨.</li>
+              <li><span className="font-semibold">KODEX 미국달러선물 (251460):</span> 달러화 ETF로 미국 정책 변화 등에 민감하게 반응하여 스트렝글 전략에 활용 가능.</li>
             </ol>
           </div>
           

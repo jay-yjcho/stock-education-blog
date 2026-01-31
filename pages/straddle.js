@@ -38,16 +38,16 @@ export default function Straddle() {
           <AdComponent slot="7894561234" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 유명 종목 예시 (5개)</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 HTS 라인업 상품 예시 (5개)</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              아래는 스트래들 전략에 자주 활용되는 국내 변동성이 큰 종목들입니다:
+              아래는 스트래들 전략에 자주 활용되는 국내 대표 ETF 상품들입니다:
             </p>
             <ol className="list-decimal pl-5 sm:pl-6 text-gray-600 dark:text-gray-300 space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><span className="font-semibold">셀트리온 (068270):</span> 바이오 업종으로 임상 결과 발표 등 이벤트에 따른 급등락이 잦아 스트래들 전략에 적합함.</li>
-              <li><span className="font-semibold">카카오 (035720):</span> IT 대표주로 정기적인 실적 발표나 정책 변화에 민감한 반응을 보임.</li>
-              <li><span className="font-semibold">포스코홀딩스 (005490):</span> 철강 업황 변화와 글로벌 경기 영향을 받아 변동성이 큰 종목.</li>
-              <li><span className="font-semibold">현대모비스 (012330):</span> 자동차 부품 대표주로 산업 이슈에 따라 큰 변동성이 발생함.</li>
-              <li><span className="font-semibold">LG에너지솔루션 (373220):</span> 2차전지 업종으로 정부 정책 및 글로벌 수주 소식에 민감한 반응.</li>
+              <li><span className="font-semibold">KODEX 레버리지 (122630):</span> 코스피200 2배 레버리지 ETF로 변동성이 크고 이벤트 시 큰 움직임이 예상되어 스트래들 전략에 적합함.</li>
+              <li><span className="font-semibold">TIGER 코스피200 선물Inverse (114800):</span> 인버스 ETF로 시장 하락 시 수익이 발생하여 방향성 없는 변동성 베팅에 적합.</li>
+              <li><span className="font-semibold">KODEX 골드선물 (132030):</span> 원자재 ETF로 지정학적 이슈 등에 민감하게 반응하여 스트래들 전략에 활용 가능.</li>
+              <li><span className="font-semibold">TIGER 미국S&P500 (122630):</span> 글로벌 시장 변동성에 민감하여 미국 정책 발표 등 이벤트 시 큰 움직임이 예상됨.</li>
+              <li><span className="font-semibold">ACE 차이나CSI300 (150840):</span> 중국시장 ETF로 정책 변화에 따른 급등락이 잦아 스트래들 전략에 적합함.</li>
             </ol>
           </div>
           

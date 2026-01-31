@@ -38,16 +38,16 @@ export default function ProtectivePut() {
           <AdComponent slot="7894561243" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 유명 종목 예시 (5개)</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 HTS 라인업 상품 예시 (5개)</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              아래는 프로텍티브풋 전략에 자주 활용되는 국내 대형주 및 중요 종목들입니다:
+              아래는 프로텍티브풋 전략에 자주 활용되는 국내 대표 ETF 상품들입니다:
             </p>
             <ol className="list-decimal pl-5 sm:pl-6 text-gray-600 dark:text-gray-300 space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><span className="font-semibold">삼성전자 (005930):</span> 코스피 대표주로 시장 리스크에 민감한 반응을 보일 수 있어 헤지 수요가 높음.</li>
-              <li><span className="font-semibold">SK하이닉스 (000660):</span> 반도체 대표주로 글로벌 수요 변화에 민감하여 하락 방어 전략이 필요.</li>
-              <li><span className="font-semibold">LG에너지솔루션 (373220):</span> 2차전지 업종으로 정책 리스크가 존재해 보호 전략이 유용.</li>
-              <li><span className="font-semibold">NAVER (035420):</span> IT 대표주로 규제 리스크가 존재해 하락 방어 수요가 있음.</li>
-              <li><span className="font-semibold">현대차 (005380):</span> 자동차 대표주로 원자재 가격 변화 및 환율 리스크에 노출.</li>
+              <li><span className="font-semibold">KODEX 200 (091160):</span> 코스피200을 추적하는 대표 ETF로 시장 리스크 헤지를 위해 프로텍티브풋 전략이 유용.</li>
+              <li><span className="font-semibold">TIGER 레버리지 (114800):</span> 레버리지 ETF로 변동성이 크기 때문에 하락 방어 전략이 필요하여 프로텍티브풋 전략에 적합.</li>
+              <li><span className="font-semibold">KODEX 반도체 (069500):</span> 섹터 ETF로 산업 리스크에 노출되어 있어 헤지 수요가 높은 상품.</li>
+              <li><span className="font-semibold">TIGER 차이나CSI300 (150840):</span> 중국시장 ETF로 정책 리스크가 존재해 하락 방어 전략이 유용한 상품.</li>
+              <li><span className="font-semibold">ACE 미국S&P500 (251590):</span> 글로벌 시장 ETF로 외부 충격에 대한 보호 전략이 필요한 상품.</li>
             </ol>
           </div>
           

@@ -38,16 +38,16 @@ export default function IronCondor() {
           <AdComponent slot="7894561240" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 유명 종목 예시 (5개)</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">국내 HTS 라인업 상품 예시 (5개)</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              아래는 아이언콘도 전략에 자주 활용되는 국내 비교적 안정적인 종목들입니다:
+              아래는 아이언콘도 전략에 자주 활용되는 국내 대표 ETF 상품들입니다:
             </p>
             <ol className="list-decimal pl-5 sm:pl-6 text-gray-600 dark:text-gray-300 space-y-1 sm:space-y-2 text-sm sm:text-base">
-              <li><span className="font-semibold">삼성전자 (005930):</span> 코스피 대표주로 옵션 거래량이 많고 변동성이 상대적으로 안정적인 종목.</li>
-              <li><span className="font-semibold">SK하이닉스 (000660):</span> 반도체 대표주로 일정한 주기의 호재와 악재가 예상되는 종목.</li>
-              <li><span className="font-semibold">현대차 (005380):</span> 자동차 대표주로 실적 발표 전후 등 일정한 이벤트가 예상되는 종목.</li>
-              <li><span className="font-semibold">기아 (000270):</span> 자동차 업종으로 실적 발표 시즌 등 주기적인 변동이 예상되는 종목.</li>
-              <li><span className="font-semibold">한국전력 (015760):</span> 공공요금 정책 영향을 받지만 상대적으로 안정적인 흐름을 보이는 종목.</li>
+              <li><span className="font-semibold">KODEX 200 (091160):</span> 코스피200을 추적하는 대표 ETF로 옵션 거래량이 많고 변동성이 상대적으로 안정적인 상품.</li>
+              <li><span className="font-semibold">TIGER 200 (102110):</span> NH-Amundi의 코스피200 ETF로 시장 전반의 움직임이 제한적일 때 아이언콘도 전략에 적합.</li>
+              <li><span className="font-semibold">KODEX 코스닥150 (295000):</span> 코스닥 대형주 ETF로 성장주 포트폴리오에 대한 중립적 전략에 활용 가능.</li>
+              <li><span className="font-semibold">TIGER 미국S&P500 (122630):</span> 미국 시장 ETF로 글로벌 이벤트 이후 안정화 국면에서 아이언콘도 전략에 적합.</li>
+              <li><span className="font-semibold">ACE KRX자동차 (347500):</span> 자동차 섹터 ETF로 산업별 테마에 대한 중립적 전략에 활용 가능한 상품.</li>
             </ol>
           </div>
           

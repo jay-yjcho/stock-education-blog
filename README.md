@@ -26,7 +26,7 @@
 
 1. 이 저장소를 클론합니다:
    ```bash
-   git clone https://github.com/your-username/stock-education-blog.git
+   git clone https://github.com/jay-yjcho/stock-education-blog.git
    ```
 
 2. 의존성을 설치합니다:
@@ -46,6 +46,23 @@ npm run build
 npm run start
 ```
 
+## Vercel에 배포
+
+1. Vercel CLI 설치:
+   ```bash
+   npm i -g vercel
+   ```
+
+2. Vercel에 로그인:
+   ```bash
+   vercel login
+   ```
+
+3. 배포:
+   ```bash
+   vercel --prod
+   ```
+
 ## 애드센스 설정
 
 블로그에 애드센스를 적용하려면 다음을 수행하세요:
@@ -53,3 +70,5 @@ npm run start
 1. `pages/_app.js` 파일에서 `ca-pub-XXXXXXXXXX` 부분을 실제 게시자 ID로 변경합니다.
 2. 각 페이지에서 사용되는 광고 슬롯 ID를 실제 사용하는 ID로 변경합니다.
 3. Google AdSense 계정을 통해 블로그를 등록하고 승인을 받습니다.
+
+사이트는 현재 https://stock-education-blog.vercel.app/ 에서 확인하실 수 있습니다.
