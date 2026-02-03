@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from '../components/Layout';
 import AdComponent from '../components/AdComponent';
 
@@ -70,6 +71,40 @@ export default function CoveredCall() {
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
               5. <span className="font-semibold">결과:</span> 주가가 행사가 이상이면 주식 매도, 제한된 수익 실현
             </p>
+          </div>
+          
+          <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">커버드콜 전략 다이어그램</h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-4 text-sm sm:text-base">
+              아래 다이어그램은 커버드콜 전략의 구조와 손익 구조를 시각적으로 설명합니다:
+            </p>
+            <div className="my-4 flex justify-center">
+              <Image
+                src="/images/covered-call-diagram.jpg"
+                alt="Covered Call 전략 다이어그램 - 주식 보유 + 콜 옵션 매도 구조"
+                width={800}
+                height={600}
+                className="rounded-lg shadow-md max-w-full h-auto"
+              />
+            </div>
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                <h3 className="font-semibold text-green-800 dark:text-green-200 mb-2">전략 구조</h3>
+                <ul className="list-disc pl-5 text-green-700 dark:text-green-300 text-sm">
+                  <li>주식 보유 + 콜 옵션 매도</li>
+                  <li>옵션 프리미엄 수익 확보</li>
+                  <li>하락 위험 완화</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">적합한 시장</h3>
+                <ul className="list-disc pl-5 text-blue-700 dark:text-blue-300 text-sm">
+                  <li>보합장</li>
+                  <li>약세장</li>
+                  <li>변동성 낮은 시장</li>
+                </ul>
+              </div>
+            </div>
           </div>
           
           <div className="flex flex-col sm:flex-row justify-between items-center pt-4 sm:pt-6 border-t border-gray-200 dark:border-gray-700 gap-4 sm:gap-0">
