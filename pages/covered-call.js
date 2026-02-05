@@ -55,6 +55,68 @@ export default function CoveredCall() {
           <AdComponent slot="7894561232" />
           
           <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">프리미엄과 배당 구조</h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-4 text-sm sm:text-base">
+              커버드콜 전략의 수익 구조는 다음과 같은 요소들로 구성됩니다:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+                <h3 className="font-semibold text-blue-800 dark:text-blue-200 mb-2">옵션 프리미엄</h3>
+                <p className="text-blue-700 dark:text-blue-300 text-sm">
+                  콜 옵션을 매도함으로써 수취하는 수익. 내재가치와 시간가치로 구성됨.
+                </p>
+              </div>
+              <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg">
+                <h3 className="font-semibold text-green-800 dark:text-green-200 mb-2">주식 배당</h3>
+                <p className="text-green-700 dark:text-green-300 text-sm">
+                  보유 주식으로부터 발생하는 배당수익. 옵션 보유자는 배당권리가 없음.
+                </p>
+              </div>
+              <div className="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-lg">
+                <h3 className="font-semibold text-purple-800 dark:text-purple-200 mb-2">주가차익</h3>
+                <p className="text-purple-700 dark:text-purple-300 text-sm">
+                  행사가격 이하에서는 주가차익 + 프리미엄, 이상에서는 프리미엄만 확정.
+                </p>
+              </div>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mt-4 sm:mt-4 text-sm sm:text-base">
+              <span className="font-semibold">프리미엄의 구성:</span> 프리미엄은 내재가치(현재 주가 - 행사가격)와 시간가치(만기까지 남은 시간에 따른 가치)로 구성됩니다. 
+              변동성에 따라 프리미엄이 달라지며, 옵션 거래가 활발할수록 높은 프리미엄을 받을 수 있습니다.
+            </p>
+          </div>
+          
+          <AdComponent slot="7894561233" />
+          
+          <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">세금 구조 및 과세 시점</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                <h3 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">옵션 프리미엄</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                  <span className="font-semibold">과세 여부:</span> 일반적으로 양도차익으로 분류되어 과세 대상
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  <span className="font-semibold">과세 시점:</span> 옵션 청산 또는 만기 시점 (실제 수익 실현 시점)
+                </p>
+              </div>
+              <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                <h3 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">배당소득</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                  <span className="font-semibold">과세 여부:</span> 별도의 배당소득세 (14%, 일부 면세 가능)
+                </p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
+                  <span className="font-semibold">과세 시점:</span> 배당금 수령 시점
+                </p>
+              </div>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mt-4 sm:mt-4 text-sm sm:text-base">
+              <span className="font-semibold">세금 절감 전략:</span> 커버드콜 전략은 주가 상승으로 인한 양도차익을 제한함으로써, 
+              높은 이익이 발생한 주식의 세금 부담을 줄일 수 있습니다. 옵션 프리미엄은 과세 시점을 조절할 수 있어 
+              연도별 수익 분산을 통한 세금 절감이 가능합니다.
+            </p>
+          </div>
+          
+          <div className="card p-4 sm:p-6 mb-6 sm:mb-10">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">전략 구사 방법</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4 sm:mb-4 text-sm sm:text-base">
               1. <span className="font-semibold">주식 보유:</span> 거래량이 많고 변동성이 있는 주식을 보유
